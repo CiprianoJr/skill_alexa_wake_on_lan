@@ -1,0 +1,30 @@
+{
+	"manifest": {
+		"publishingInformation": {
+			"locales": {
+				"pt-BR": {
+					"summary": "Ligue seu computador utilizando wake on lan.",
+					"examplePhrases": [
+						"Alexa ligue meu computador",
+					],
+					"keywords": [
+						"ligar",
+						"computador",
+						"rede"
+					],
+					"name": "Acordar Computador Via Rede",
+					"description": "Ligue seu computador via rede."
+				}
+			}
+		},
+		"apis": {
+			"custom": {
+				"endpoint": {
+					"sourceDir": "lambda/py/lambda_upload",
+					"uri": "wake-on-lan-computer"
+				}
+			}
+		},
+		"manifestVersion": "1.0"
+	}
+}
